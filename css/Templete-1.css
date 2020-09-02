@@ -1,0 +1,433 @@
+/* GENERAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* End GENERAL STYLE */
+
+
+/* Start Header ---------------------------*/
+.header .navbar {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+  padding: 20px 0 15px 0;
+}
+
+.header .navbar h2 {
+  float: left;
+  text-transform: uppercase;
+}
+
+.header .navbar h2 span {
+  color: #27ce74;
+}
+
+.header .navbar ul {
+  list-style: none;
+  padding: 5px 0 0 0;
+  float: right;
+}
+
+.header .navbar ul li {
+  float: left;
+}
+
+.header .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.header .navbar ul li a.active {
+  color: #27ce74;
+}
+
+.header .navbar ul li a:hover {
+  color: #27ce74;
+}
+
+.header .slider {
+  background-image: url(../images/man.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  position: relative;
+}
+
+.header .slider .intro {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header .slider .intro h2 {
+  margin: 0 auto;
+  font-size: 50px;
+  width: 600px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  padding: 5px 0;
+}
+
+.header .slider .intro button {
+  background: none;
+  margin: 20px 0 0 0;
+  font-size: 25px;
+  padding: 5px 15px;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.header .slider .intro button:hover {
+  cursor: pointer;
+  border: 2px solid #27ce74;
+}
+/* End Header --------------------------------------*/
+
+
+/* Start Features ----------------------------------*/
+.features {
+  padding: 30px 0px;
+}
+
+.features .feat {
+  width: 30%;
+  float: left;
+}
+
+.mg-5 {
+  margin: 0 5%;
+}
+
+.features .feat h2 {
+  text-transform: uppercase;
+  margin: 0 0 15px 0;
+}
+/* End Features --------------------------------------*/
+
+
+/* Start About me -----------------------------------*/
+.about-me {
+  background-color: #f2f2f2;
+}
+
+.about-me .image {
+  width: 40%;
+  float: left;
+}
+
+.about-me .image img {
+  width: 100%;
+}
+
+.about-me .info {
+  width: 60%;
+  float: left;
+}
+
+.about-me .info h2 {
+  margin: 40px 0 0 40px;
+}
+
+.about-me .info > p {
+  margin: 18px 0 0 40px;
+}
+
+.about-me .info .hobbies {
+  overflow: hidden;
+  margin: 20px 0 0 40px;
+}
+
+.about-me .info .hobbies .content {
+  width: 50%;
+  min-height: 100px;
+  float: left;
+  margin: 0 0 30px 0;
+}
+
+.about-me .info .hobbies .content .icon {
+  width: 12%;
+  margin: 0 0 15px 0;
+}
+
+.about-me .info .hobbies .content .icon img {
+  max-width: 100%;
+  margin: 12px 0 0 0;
+}
+
+.about-me .info .hobbies .content .text {
+  margin: 0 0 0 10px;
+  padding: 0 20px 0 0;
+}
+/* End About me ------------------------------ */
+
+
+/* start my skills --------------------------- */
+.my-skills {
+  padding: 30px 0px;
+  overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+  width: 45%;
+  float: left;
+}
+
+.my-skills .skills {
+  margin: 0 10% 0 0;
+}
+
+.my-skills .skills button {
+  margin: 30px 0 80px 0;
+  background: none;
+  color: #27ce74;
+  border: 3px solid #27ce74;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+.my-skills .progress .skill {
+  margin: 0 0 15px 0;
+}
+.my-skills .progress .skill div {
+  background-color: #f2f2f2;
+  height: 20px;
+}
+
+.my-skills .progress .skill div span {
+  height: 20px;
+  background-color: #27ce74;
+  display: block;
+  line-height: 20px;
+  color: #fff;
+  text-align: right;
+}
+/* End my skills ----------------------------- */
+
+/* start resume  ---------------------------- */
+.resume {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0 30px 0;
+}
+
+.resume button {
+  margin: 30px 0 50px 0;
+  background: none;
+  color: #27ce74;
+  border: 3px solid #27ce74;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+/* End resume ---------------------------------*/
+
+/* start my education ------------------------*/
+
+.my-education {
+  padding: 30px 0px;
+  overflow: hidden;
+}
+
+.my-education h2 {
+  margin: 0 0 15px 0;
+}
+
+.my-education .main {
+  width: 50%;
+  float: left;
+}
+
+.my-education .exp {
+  overflow: hidden;
+  width: 45%;
+  margin: 35px 0 40px 5%;
+  float: left;
+}
+
+.my-education .exp div {
+  width: 60px;
+  color: #fff;
+  background-color: #080;
+  padding: 8px 8px;
+  margin: 15px 0;
+}
+
+hr {
+  margin: 0 0 20px 0;
+}
+/* End my education ---------------------------*/
+
+
+/* start testimonials --------------------------*/
+.testimonials {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.testimonials h3 {
+  margin: 20px 0;
+}
+
+.testimonials q {
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.testimonials ul {
+  list-style-type: none;
+}
+
+.testimonials ul li {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #27ce74;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.testimonials ul li.active,
+.testimonials ul li:hover {
+  background-color: #27ce74;
+  cursor: pointer;
+}
+/* End testimonials ------------------------- */
+
+
+/* start portfolio -------------------------- */
+.portfolio {
+  padding: 50px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.portfolio p {
+  margin: 20px 0 40px 0;
+}
+
+.portfolio .our-work {
+  text-align: center;
+}
+
+.portfolio .our-work div {
+  float: left;
+  width: 30%;
+  margin-bottom: 50px;
+}
+
+.portfolio .our-work div img {
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.p-mg-5 {
+  margin: 0 5%;
+}
+/* End portfolio ------------------------------*/
+
+/* start contact me -------------------------- */
+.contact-me {
+  height: 700px;
+  overflow: hidden;
+  background: #252f31;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contact-me h2 {
+  margin: 0 0 20px 0;
+}
+
+.contact-me .info {
+  width: 50%;
+  float: left;
+}
+
+.contact-me .form {
+  width: 50%;
+  float: left;
+}
+
+.contact-me label {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.contact-me form input[type="text"],
+.contact-me form input[type="email"] {
+  margin: 0 0 10px 0;
+  width: 80%;
+  background-color: gray;
+  border: none;
+  padding: 8px;
+}
+
+.contact-me form textarea {
+  margin: 0 0 10px 0;
+  width: 80%;
+  background-color: grey;
+  border: none;
+  height: 250px;
+}
+
+.contact-me form input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  display: block;
+}
+/* End contact me ------------------------ */
+
+
+/* start footer -------------------------- */
+.footer {
+  padding: 30px;
+  background-color: #191e22;
+  text-align: center;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.footer ul li i {
+  color: #fff;
+  font-size: 22px;
+}
+/* End footer ------------------------ */
